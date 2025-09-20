@@ -1,2 +1,3 @@
-web: gunicorn bancoweb:app
+web: gunicorn bancowebnew.bancoweb:app
+
 
