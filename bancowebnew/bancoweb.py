@@ -339,5 +339,6 @@ def recusar_deposito(id):
     flash("Depósito recusado!")
     return redirect(url_for("admin_depositos"))
 
+
 if __name__ == "__main__":
     app.run(debug=True)
